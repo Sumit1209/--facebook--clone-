@@ -8,9 +8,9 @@ function App() {
   return (
    <>
    <div className="App">
-    <BrowserRouter>
+    <BrowserRouter basename="/--facebook--clone-">
        <Routes>
-          <Route path="/" element={<Login/>}/>
+          <Route exact path="/--facebook--clone-" element={<Login/>}/>
           <Route path="/signup" element={<Signup/>}/>
           <Route path="/home" element={<Home/>}/>
 
