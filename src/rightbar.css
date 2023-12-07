@@ -1,0 +1,9 @@
+.rightbar{
+    flex: 3;
+    height: 90vh;
+
+    overflow-y: scroll;
+   }
+.rightbarwrapper{
+    padding: 20px;
+}

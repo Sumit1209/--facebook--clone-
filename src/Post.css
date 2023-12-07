@@ -1,0 +1,163 @@
+.post{
+     width: 100%;
+     margin-top: 10px;
+    /*border: 2px solid red;*/
+    border-radius: 10px;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.postWrapper{
+     /*border: 10px solid green;*/
+     padding: 10px;
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    width: 100%;
+   /* border: 2px solid rgb(64, 0, 255);*/
+}
+.postTopLeft{
+      /*border: 2px solid red;*/
+      display: flex;
+      width: 80%;
+}
+.postProfileImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.postUserName{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 1px;
+    cursor: pointer;
+}
+.postUserName:hover{
+    color: rgb(47, 46, 46);
+    text-decoration: underline;
+}
+.postDate{
+    font-size: 12px;
+}
+.postTopRight{
+    margin-top: -9px;
+    width: 20%;
+   /* border: 2px solid red;*/
+
+}
+.postTopRightmenu{
+    padding: 4px;
+    margin: 1px;
+    /*border: 2px solid green;*/
+    width:20%;
+    font-size: 25px;
+    border: none;
+    border-radius: 50%;
+}
+.postTopRightmenu:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.postCenter{
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    margin-top:2px;
+    position: relative;
+    top: 0px;
+}
+.postText{
+    padding-bottom: 5px;
+}
+.postImg{
+    /*margin-top: 20px;*/
+    width: 100%;
+    max-height: 500px;
+    border: none;
+    border-radius: 1%;
+}
+.postBottom1{
+   /* border: 2px solid green;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+   
+}
+.postButtonLeft1{
+   width: 60%;
+   /*border: 2px solid blue;*/
+   display: flex;
+   align-items: center;
+   
+}
+
+.LikeButton{
+   padding-left:4px ;
+   font-size: 18px;
+}
+.postlikeCounter{
+   font-size: 15px;
+   padding-left:4px ;
+}
+.postlikeCounter:hover{
+    text-decoration: underline;
+
+}
+.postButtonRight1{
+     
+}
+.postBottom2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    /*border: 2px solid red;*/
+    padding: 3px;
+    margin-top: -12px;
+    margin-bottom: 8px;
+}
+.postButtonLeft2 {
+    width:35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+    
+}
+
+.counterButton{
+    font-size: 20px;
+}
+.postlikeCounter{
+     color: rgb(48, 48, 48);
+     text-transform: capitalize;
+}
+.postButtonCenter{
+    width:35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+    
+     
+}
+.postButtonRight2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+    
+}
+

@@ -1,0 +1,9 @@
+.centerbar{
+    flex: 5;
+    height: 90vh;
+
+    overflow-y: scroll;
+}
+.centerbarwrapper{
+    padding: 20px;
+}

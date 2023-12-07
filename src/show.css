@@ -1,0 +1,193 @@
+.showbar{
+    width: 100%;
+   /* border: 2px solid red;*/
+}
+.showbarwrapper{
+    padding: 10px;
+}
+.showbarTop{
+    width: 100%;
+    /*border: 2px solid rgb(64, 0, 255);*/
+}
+.showbarTop1{
+   /* border: 2px solid red;*/
+    width: 100%;
+    margin-bottom: 15px;
+}
+.showbarTop1Left{
+    display: flex;
+    align-items: center;
+}
+.showbarTopHeadingText{
+    /*border: 2px solid black;*/
+    width: 80%;
+    color: #65676b;
+    font-family: inherit;
+    font-weight: 700;
+    
+}
+.showbarTopRightmenu{
+    /*border: 2px solid orange;*/
+    width: 20%;
+}
+.showbarTopRightmenu:hover{
+    border-radius: 5px;
+    background-color: rgb(225, 220, 220);
+}
+.showbarTop2{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.showbarTop2Left{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 5px;
+}
+.showbarTop2Left:hover{
+    background-color: rgb(225, 220, 220);
+}
+.rightbarTopImg{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.showbarTopSubHeadingText1{
+    text-transform: capitalize;
+    color: #3b3c3d;
+    font-weight: bold;
+}
+.showbarTopSubHeadingText2{
+    text-transform: capitalize;
+    color: #65676b;
+    font-family: inherit;
+    font-weight: 500;
+
+    font-size: 12px;
+}
+.showbar2LeftIcon{
+    margin-left: 11px;
+    font-size: 17px;
+    /* color: rgb(8, 169, 232); */
+    border-radius: 16px;
+    margin-right: 11px;
+
+}
+.friendrequestHeadingText{
+    color: #65676b;
+    font-family: inherit;
+    font-weight: 700;
+}
+.FriendRequest{
+   /*border: 2px solid red;*/
+   width: 100%;
+   cursor: pointer;
+}
+.FriendRequest:hover{
+    background-color: rgb(225, 220, 220);
+
+}
+.FrienRequestbar{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.FriendRequestList{
+    display: flex;
+    margin-bottom: 7px;
+    /*border: 2px solid gray;*/
+}
+.FriendRequestImg{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.FriendRequestListText{
+    font-family: inherit;
+    font-size: .9375rem;
+    font-weight: 500;
+    color: #050505;
+}
+.FriendRequestListInside{
+    display: flex;
+    flex-direction: column;
+    /*border: 2px solid green;*/
+    width: 100%;
+}
+.MutualFirend{
+    display: flex;
+   /* border: 2px solid black;*/
+    align-items: center;
+}
+.MutualFriendImg{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.mutualFriendText{
+    color: #65676b;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: .8125rem;
+}
+.ButtonConfirmation{
+    /*border: 1px solid blueviolet;*/
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+.buttonConfirm{
+    background-color: #0866ff;
+    width: 37%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-right: 12px;
+}
+.buttonDelete{
+    background-color: #d7e1f0;
+    width: 36%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 19px;
+    color: black;
+    margin-right: 11px;
+}
+.contact{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+}
+.contactHeadText{
+   width: 80%;
+   color: #65676b;
+   font-family: inherit;
+   font-weight: 700;
+
+}
+.contactIcon{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.contactIcon:hover{
+    border-radius: 5px;
+    background-color: rgb(225, 220, 220);
+
+}
+
+
